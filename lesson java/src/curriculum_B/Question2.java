@@ -38,7 +38,7 @@ public class Question2 {
 		}else if (score1 < 50) {System.out.println("不可");}
 
 		String isGod = " ";
-		if (isGod == null || isGod == " ") {System.out.println("入力が無効です");}
+		if (isGod.equals(null) || isGod.equals(" ")) {System.out.println("入力が無効です");}
 
 		int day = 5;
 		switch (day){
