@@ -1,22 +1,22 @@
-package curriculurm_A;
+package curriculum_A;
 
 public class Question1 {
 
 	public static void main(String[] args) {
-		byte byteNum;
-		short shortNum;
-		int intNum;
-		long longNum;
-		float floatNum;
-		double doubleNum;
-		char letter;
-		String letters;
-		boolean isBoolean;
+		byte byteNum =5;
+		short shortNum =5;
+		int intNum =0;
+		long longNum = 7L;
+		float floatNum = 5;
+		double doubleNum = 1.1;
+		char letter = 'k';
+		String letters = "kk";
+		boolean isBoolean = false;
 		
 		byteNum = 10;
 		shortNum = 100;
 		intNum = 1000;
-		longNum = 10000;
+		longNum = 10000L;
 		floatNum = 9.5f;
 		doubleNum = 10.5;
 		letter = 'a';
@@ -75,14 +75,5 @@ public class Question1 {
 
 	}
 
-	private static void replace(String replace) {
-		// TODO 自動生成されたメソッド・スタブ
-		
-	}
-
-	private static void print(String replace) {
-		// TODO 自動生成されたメソッド・スタブ
-		
-	}
 
 }
