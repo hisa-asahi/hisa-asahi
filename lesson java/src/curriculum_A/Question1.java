@@ -3,14 +3,14 @@ package curriculum_A;
 public class Question1 {
 
 	public static void main(String[] args) {
-		byte byteNum =5;
-		short shortNum =5;
+		byte byteNum = 0;
+		short shortNum = 0;
 		int intNum =0;
-		long longNum = 7L;
-		float floatNum = 5;
-		double doubleNum = 1.1;
-		char letter = 'k';
-		String letters = "kk";
+		long longNum = 0L;
+		float floatNum = 0.0f;
+		double doubleNum = 0.0;
+		char letter = '\u0000';
+		String letters = "null";
 		boolean isBoolean = false;
 		
 		byteNum = 10;

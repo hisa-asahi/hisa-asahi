@@ -1,5 +1,7 @@
 package curriculum_B;
 
+import java.util.Scanner;
+
 public class Question3 {
 
 	public static void main(String[] args) {
@@ -16,17 +18,19 @@ public class Question3 {
 		}
 		
 		int d = 0;
-		for (int e = 1; e <= 100; e++) 
+		for (int e = 1; e <= 100; e++) { 
 			d = d+ e;
 			System.out.println(d);
+		}
 		
 		for (int f = 1; f <= 5; f++) {
-			if (f == 1) {System.out.println("*");
-			}else if (f == 2) {System.out.println("**");
-			}else if (f == 3) {System.out.println("***");
-			}else if (f == 4) {System.out.println("****");
-			}else if (f == 5) {System.out.println("*****");}
+			for (int aa = 1; aa <= 5; aa++) {
+				if (f >= aa)
+					System.out.print("*");
+				}
+			System.out.println();
 		}
+			
 		
 		int g = 1;
 		while (g <= 10) {
@@ -49,11 +53,28 @@ public class Question3 {
 		int j = 1;
 		int k = 0;
 		while (j <= 100) {
-			j++;
 			k = k + j;
+			j++;
 		}
 		System.out.println(k);
 		
+		Scanner scanner = new Scanner(System.in);
+		int l = scanner.nextInt();
+		scanner.close();
+		while (l == 0) {
+		System.out.println("終了しました");
+		break;
+		}
+		
+		
+		for (int m = 1; m <= 9; m++) {
+		for (int n = 1; n <= 9; n++) {
+			System.out.print(m + "*" + n + "=" + n * m);
+			if (n < 9) {System.out.print("||");
+		}
+		}
+		System.out.println();
+		}
 		
 		// TODO 自動生成されたメソッド・スタブ
 
