@@ -2,12 +2,6 @@ package curriculum_B;
 
 public class Question5 {
 
-	public static void main(String[] args) {
-
-		// TODO 自動生成されたメソッド・スタブ
-
-	}
-
 	//Q1
 	public static void helloWorld() {
 		System.out.println("Hello,World!");
@@ -32,4 +26,16 @@ public class Question5 {
 		}
 	}
 
+	public static void main(String[] args) {
+		//Q1
+		helloWorld();
+		//Q2
+		doubleValue(0);
+		//Q3
+		isEven(5);
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+	//Q4,Q5は、curriculum_BのMain.javaとcurriculum_AのAnimal.java Greeting.javaに記述
 }

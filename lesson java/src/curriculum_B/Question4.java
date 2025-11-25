@@ -51,14 +51,15 @@ public class Question4 {
 		Scanner scanner = new Scanner(System.in);
 		int[] numE = { 4, 7, 10, 15, 20 };
 		int h = scanner.nextInt();
+		boolean found = false;
 		for (int x : numE) {
-			boolean found = false;
 			if (h == x) {
 				found = true;
 				System.out.println(h + "は配列に含まれていません");
 				if (found) {
 					System.out.println(h + "は配列に含まれています");
 				}
+				break;
 			}
 		}
 
