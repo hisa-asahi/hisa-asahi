@@ -1,7 +1,5 @@
-package object;
+package object6;
 
-import java.util.ArrayList;
-import java.util.List;
 public class Main {
 
 	public Main() {
@@ -10,12 +8,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		//6インターフェイスと抽象クラス
-		List<String> Bilable = new ArrayList<String>();
-		Bilable.add("佐藤");
-		Bilable.add("鈴木");
-		Bilable.add("加藤");
-		Employee xa = new Employee(null,null);
-		xa.Employee(Bilable,number);
+		String[] bill = {"佐藤太郎", "鈴木次郎", "加藤三助"};
+		for (String Billable : bill);
+		
+		String[] num = {"A001", "A002", "A003"};
+		for (String Number : num);
+		
 		// TODO 自動生成されたメソッド・スタブ
 
 	}

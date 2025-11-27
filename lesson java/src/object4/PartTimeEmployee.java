@@ -1,4 +1,5 @@
-package curriculum_A;
+package object4;
+
 
 public class PartTimeEmployee extends Employee {
 public PartTimeEmployee(String id, String name) {

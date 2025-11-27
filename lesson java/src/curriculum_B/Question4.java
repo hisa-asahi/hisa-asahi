@@ -55,12 +55,19 @@ public class Question4 {
 		for (int x : numE) {
 			if (h == x) {
 				found = true;
-				System.out.println(h + "は配列に含まれていません");
-				if (found) {
-					System.out.println(h + "は配列に含まれています");
+				if (found = true) {
+					break;
 				}
-				break;
+			}else {
+				found = false;
 			}
+				
+					
+		}
+		if(found == true) {
+			System.out.println(h + "は配列に含まれています");
+		}else {
+			System.out.println(h + "は配列に含まれていません");
 		}
 
 		scanner.close();

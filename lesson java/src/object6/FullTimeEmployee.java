@@ -1,4 +1,4 @@
-package object;
+package object6;
 
 public class FullTimeEmployee extends Employee{
 

@@ -37,5 +37,5 @@ public class Question5 {
 
 	}
 
-	//Q4,Q5は、curriculum_BのMain.javaとcurriculum_AのAnimal.java Greeting.javaに記述
+	
 }
