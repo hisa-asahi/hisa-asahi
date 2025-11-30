@@ -12,12 +12,10 @@ public class Main {
 		Greeting greeting = new Greeting();
 		greeting.sayHello();
 		//Q5
-		Animal animal = new Animal(null);
+		Animal animal = new Animal(null, 0, 0);
 		animal.setaniName("ライオン");
-		Animal animal1 = new Animal(0);
-		animal1.setaniLong(2.1);
-		Animal animal2 = new Animal(0);
-		animal2.setaniSpeed(80);
+		animal.setaniLong(2.1);
+		animal.setaniSpeed(80);
 		
 		
 		

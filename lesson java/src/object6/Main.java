@@ -1,19 +1,20 @@
 package object6;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
-	public Main() {
-		// TODO 自動生成されたコンストラクター・スタブ
-	}
-
 	public static void main(String[] args) {
-		//6インターフェイスと抽象クラス
-		String[] bill = {"佐藤太郎", "鈴木次郎", "加藤三助"};
-		for (String Billable : bill);
-		
-		String[] num = {"A001", "A002", "A003"};
-		for (String Number : num);
-		
+		List<Billable> employees = new ArrayList<>();
+		employees.add(new FullTimeEmployee("A001", "佐藤太郎"));
+		employees.add(new ContractEmployee("A002", "田中次郎"));
+		employees.add(new FullTimeEmployee("A003", "斎藤三郎"));
+		employees.add(new ContractEmployee("A004", "伊東四朗"));
+
+		for (Billable b : employees) {
+			System.out.println(b.costForDay(10));
+		}
 		// TODO 自動生成されたメソッド・スタブ
 
 	}

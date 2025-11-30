@@ -1,16 +1,37 @@
 package object6;
 
-public class ContractEmployee extends Employee{
+public class ContractEmployee extends Employee {
 
-	public ContractEmployee() {
-		// TODO 自動生成されたコンストラクター・スタブ
-	}
+	int b;
 
 	@Override
 	public int costForDay(int hoursWorked) {
-		System.out.println(hoursWorked * 1000 + "円");
+		b = hoursWorked * 1000;
 		// TODO 自動生成されたメソッド・スタブ
-		return 0;
+		return b;
 	}
 
+	private String id;
+	private String name;
+
+	public ContractEmployee(String id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+
+	public String getEmployeeid() {
+		return id;
+	}
+
+	public void setEmployeeid(String employeeid) {
+		this.id = employeeid;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 }

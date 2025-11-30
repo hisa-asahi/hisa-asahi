@@ -55,11 +55,7 @@ public class Question4 {
 		for (int x : numE) {
 			if (h == x) {
 				found = true;
-				if (found = true) {
 					break;
-				}
-			}else {
-				found = false;
 			}
 				
 					
@@ -121,5 +117,4 @@ public class Question4 {
 		// TODO 自動生成されたメソッド・スタブ
 
 	}
-
 }

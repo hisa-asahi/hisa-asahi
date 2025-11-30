@@ -4,8 +4,10 @@ public class Animal {
 	//名前
 	private String aniName;
 
-	public Animal(String animalName) {
-		this.aniName = animalName;
+	public Animal(String newName, double newLong, int newSpeed) {
+		this.aniName = newName;
+		this.aniLong = newLong;
+		this.aniSpeed = newSpeed;
 	}
 
 	public String getaniName() {
@@ -20,9 +22,7 @@ public class Animal {
 	//体長
 	public double aniLong;
 
-	public Animal(double newLong) {
-		this.aniLong = newLong;
-	}
+	
 
 	public double getaniLong() {
 		return aniLong;
@@ -36,9 +36,7 @@ public class Animal {
 	//速度
 	public int aniSpeed;
 
-	public Animal(int newSpeed) {
-		this.aniSpeed = newSpeed;
-	}
+	
 
 	public int getaniSpeed() {
 		return aniSpeed;
@@ -49,9 +47,6 @@ public class Animal {
 		System.out.println("速度:" + aniSpeed + "km/h");
 	}
 
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-
-	}
+	
 
 }
