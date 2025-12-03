@@ -4,11 +4,9 @@ package object3;
 public class Main {
 
 	public static void main(String[] args) {
-		Employee employee2 = new Employee(null, null);
-		employee2.setEmployee("E002");
-		employee2.setName("田中花子");
-		employee2.getEmployee();
-		employee2.getName();
+		Employee employee = new Employee("E002", "田中花子");
+		System.out.println("社員ID:" + employee.getEmployeeid());
+		System.out.println("名前:"+ employee.getName());
 		// TODO 自動生成されたメソッド・スタブ
 
 	}

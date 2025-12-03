@@ -3,8 +3,7 @@ package object1;
 public class Main {
 	/**/
 	public static void main(String[] args) {
-		Employee a = new Employee(null);
-		a.setEmployee("山田太郎");
+		Employee a = new Employee("山田太郎");
 		a.work();
 		// TODO 自動生成されたメソッド・スタブ
 

@@ -2,27 +2,31 @@ package object2;
 
 public class Employee {
 	private String employeeid;
-	private String name1;
+	private String name;
 
 	public Employee(String empd, String nameA) {
 		this.employeeid = empd;
-		this.name1 = nameA;
+		this.name = nameA;
 	}
 
 	public String getEmployeeid() {
 		return employeeid;
 	}
 
-	public String getname1() {
-		return name1;
+	public String getName1() {
+		return name;
 	}
 
-	public void setEmployee(String employeeid1, String name2) {
-		this.employeeid = employeeid1;
-		this.name1 = name2;
+	public void setEmployee(String empd, String nameA) {
+		this.employeeid = empd;
+
+	}
+
+	public void setName1(String nameA) {
+		this.name = nameA;
 	}
 
 	public void showinfo() {
-		System.out.println("社員iD:" + employeeid + ",名前:" + name1);
+		System.out.println("社員iD:" + employeeid + ",名前:" + name);
 	}
 }

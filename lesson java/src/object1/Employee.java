@@ -7,11 +7,11 @@ public class Employee {
 		this.name = enpName;
 	}
 
-	public String getEmployee() {
+	public String getName() {
 		return name;
 	}
 
-	public void setEmployee(String newName) {
+	public void setName(String newName) {
 		this.name = newName;
 	}
 
