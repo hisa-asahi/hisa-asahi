@@ -20,20 +20,20 @@ public class Character {
 		this.hit = hit;
 	}
 
-	public int getSpd() {
-		return spd;
-	}
-
-	public void setSpd(int spd) {
-		this.spd = spd;
-	}
-
 	public int getAtk() {
 		return atk;
 	}
 
 	public void setAtk(int atk) {
 		this.atk = atk;
+	}
+
+	public int getSpd() {
+		return spd;
+	}
+
+	public void setSpd(int spd) {
+		this.spd = spd;
 	}
 
 	private int dhp;
