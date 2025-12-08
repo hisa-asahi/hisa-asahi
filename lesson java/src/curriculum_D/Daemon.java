@@ -22,11 +22,11 @@ public class Daemon {
 			FileWriter file = new FileWriter("daemon_status.txt");
 			BufferedWriter writer = new BufferedWriter(file);
 
-			writer.write(120);
+			writer.write("120");
 			writer.newLine();
-			writer.write(30);
+			writer.write("30");
 			writer.newLine();
-			writer.write(50);
+			writer.write("50");
 
 			writer.close();
 		} catch (IOException e) {

@@ -19,7 +19,7 @@ public class Question7 {
 		int speed = random.nextInt(100);
 		int attack = random.nextInt(50);
 		Character charactor = new Character(hitpoint, attack, speed);
-		String load = "daemon_status.txt";
+		String load = "deamon_status.txt";
 		List<Integer> daemon = new ArrayList<>();
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader("deamon_status.txt"));

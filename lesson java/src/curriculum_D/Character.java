@@ -51,7 +51,7 @@ public class Character {
 	}
 
 	public void setDhp(int dhp) {
-		this.dhp = 120;
+		this.dhp = dhp;
 	}
 
 	public int getDatk() {
@@ -59,7 +59,7 @@ public class Character {
 	}
 
 	public void setDatk(int datk) {
-		this.datk = 30;
+		this.datk = datk;
 	}
 
 	public int getDspd() {
@@ -67,6 +67,6 @@ public class Character {
 	}
 
 	public void setDspd(int dspd) {
-		this.dspd = 50;
+		this.dspd = dspd;
 	}
 }

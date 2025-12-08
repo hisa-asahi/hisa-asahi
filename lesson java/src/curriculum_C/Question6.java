@@ -9,9 +9,10 @@ public class Question6 {
 		Random random = new Random();
 		Cpu cpu = new Cpu(random.nextInt(3));
 		//グー(0), チョキ(1), パー(2) を入力
-		int cpu1 = cpu.getCpu();
-		int scaNum = scanner.nextInt();
+
 		while (true) {
+			int cpu1 = cpu.getCpu();
+			int scaNum = scanner.nextInt();
 			if (scaNum == cpu1) {
 				System.out.println("あいこです");
 				break;

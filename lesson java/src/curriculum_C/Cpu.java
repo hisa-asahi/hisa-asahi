@@ -1,11 +1,12 @@
 package curriculum_C;
 
 public class Cpu {
-	public Cpu(int cpu) {
-
-	}
 
 	private int cpu;
+
+	Cpu(int cpu) {
+		this.cpu = cpu;
+	}
 
 	public int getCpu() {
 		return cpu;
