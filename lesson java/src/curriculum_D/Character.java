@@ -36,37 +36,4 @@ public class Character {
 		this.spd = spd;
 	}
 
-	private int dhp;
-	private int datk;
-	private int dspd;
-
-	public void loadDaemon(int dhp, int datk, int dspd) {
-		this.dhp = dhp;
-		this.datk = datk;
-		this.dspd = dspd;
-	}
-
-	public int getDhp() {
-		return dhp;
-	}
-
-	public void setDhp(int dhp) {
-		this.dhp = dhp;
-	}
-
-	public int getDatk() {
-		return datk;
-	}
-
-	public void setDatk(int datk) {
-		this.datk = datk;
-	}
-
-	public int getDspd() {
-		return dspd;
-	}
-
-	public void setDspd(int dspd) {
-		this.dspd = dspd;
-	}
 }

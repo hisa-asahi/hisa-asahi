@@ -12,7 +12,7 @@ public class Question7 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		scanner.next();
+		scanner.nextLine();
 		//名前を入力
 		Random random = new Random();
 		int hitpoint = random.nextInt(200);
@@ -22,7 +22,7 @@ public class Question7 {
 		String load = "deamon_status.txt";
 		List<Integer> daemon = new ArrayList<>();
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("deamon_status.txt"));
+			BufferedReader reader = new BufferedReader(new FileReader("daemon_status.txt"));
 			String line;
 
 			while ((line = reader.readLine()) != null) {
@@ -83,9 +83,15 @@ public class Question7 {
 		scanner.close();
 	}
 
+	Daemon daemon = new Daemon(0, 0, 0);
+
 	private static void loadDaemon(int dhp, int datk, int dspd) {
-		// TODO 自動生成されたメソッド・スタブ
+		dhp = Daemon.getDhp();
+		datk = Daemon.getDatk();
+		dspd = Daemon.getDspd();
 
 	}
+
+	// TODO 自動生成されたメソッド・スタブ
 
 }

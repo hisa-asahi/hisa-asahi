@@ -6,7 +6,42 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Daemon {
+	private static int dhp;
+	private static int datk;
+	private static int dspd;
+
+	public Daemon(int dhp, int datk, int dspd) {
+		this.dhp = dhp;
+		this.datk = datk;
+		this.dspd = dspd;
+	}
+
+	public static int getDhp() {
+		return dhp;
+	}
+
+	public void setDhp(int dhp) {
+		this.dhp = dhp;
+	}
+
+	public static int getDatk() {
+		return datk;
+	}
+
+	public void setDatk(int datk) {
+		this.datk = datk;
+	}
+
+	public static int getDspd() {
+		return dspd;
+	}
+
+	public void setDspd(int dspd) {
+		this.dspd = dspd;
+	}
+
 	public static void main(String[] args) {
+
 		try {
 			File file = new File("daemon_status.txt");
 			if (file.createNewFile()) {
