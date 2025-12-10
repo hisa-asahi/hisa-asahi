@@ -8,7 +8,7 @@ public class Cpu {
 		this.cpu = cpu;
 	}
 
-	public int getCpu() {
+	public int getCpu(int cpu1) {
 		return cpu;
 	}
 

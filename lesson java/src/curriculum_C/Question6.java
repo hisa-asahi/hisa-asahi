@@ -12,8 +12,9 @@ public class Question6 {
 
 		while (true) {
 			cpu.setCpu(random.nextInt(3));
-			int cpu1 = random.nextInt(3);
 			int scaNum = scanner.nextInt();
+			int cpu1 = 0;
+			cpu.getCpu(cpu1);
 			if (scaNum == cpu1) {
 				System.out.println("あいこです");
 				break;
@@ -22,10 +23,10 @@ public class Question6 {
 				break;
 			} else if (scaNum == 0 && cpu1 == 1 || scaNum == 1 && cpu1 == 2 || scaNum == 2 && cpu1 == 0) {
 				System.out.println("あなたの勝ち");
-				scanner.close();
 				break;
 			}
 		}
-
+		scanner.close();
 	}
+
 }
