@@ -9,7 +9,7 @@ public class Cpu {
 	}
 
 	public int getCpu(int cpu1) {
-		return cpu;
+		return this.cpu;
 	}
 
 	public void setCpu(int cpu) {
